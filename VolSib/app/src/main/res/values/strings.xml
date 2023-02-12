@@ -1,8 +1,0 @@
-<resources>
-    <string name="app_name">Sky</string>
-    <string name="hello">Weather in the city</string>
-    <string name="hint_edit">Enter city</string>
-    <string name="mainBut">OK</string>
-    <string name="emptyInput">Enter city</string>
-    <string name="todo" />
-</resources>
