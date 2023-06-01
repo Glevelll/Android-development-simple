@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AlarmKotlin</string>
+    <string name="update">Установить будильник</string>
+    <string name="alarming">ALARM</string>
+</resources>

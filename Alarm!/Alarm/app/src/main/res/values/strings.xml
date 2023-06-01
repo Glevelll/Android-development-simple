@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Alarm</string>
+    <string name="update">Установка будильника</string>
+    <string name="alarming">ALARM</string>
+</resources>
