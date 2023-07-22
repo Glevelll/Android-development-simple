@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/like"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.ProfileFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/titleProfile"
+                android:layout_width="80dp"
+                android:layout_height="41dp"
+                android:fontFamily="@font/akronim"
+                android:text="@string/titleProfile"
+                android:textSize="32sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardviewprofile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="80dp"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="10dp"
+                app:contentPadding="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/layoutCardProfile"
+                    android:layout_width="320dp"
+                    android:layout_height="wrap_content">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:id="@+id/imageView1"
+                        android:layout_width="86dp"
+                        android:layout_height="86dp"
+                        android:contentDescription="@string/photoProfile1"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/profile_photo"
+                        android:visibility="visible"
+                        app:cardCornerRadius="200dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:shapeAppearanceOverlay="@style/RoundedSquare"
+                        tools:ignore="MissingConstraints" />
+
+                    <Button
+                    android:id="@+id/settings"
+                    android:layout_width="0dp"
+                    android:layout_height="41dp"
+                    android:layout_marginStart="45dp"
+                    android:layout_marginEnd="145dp"
+                    android:backgroundTint="#FFFFFF"
+                    android:text="@string/details_profile_change_info"
+                    android:textColor="#246DFF"
+                    android:visibility="visible"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.411"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/details_about" />
+
+                    <Button
+                        android:id="@+id/sign_out"
+                        android:layout_width="0dp"
+                        android:layout_height="41dp"
+                        android:layout_marginStart="185dp"
+                        android:layout_marginEnd="45dp"
+                        android:backgroundTint="#FFFFFF"
+                        android:text="@string/Exit"
+                        android:textColor="#E91E63"
+                        android:visibility="visible"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.411"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/details_about" />
+
+                    <TextView
+                        android:id="@+id/details_city"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginEnd="4dp"
+                        android:gravity="right"
+                        android:text="@string/details_profile_city"
+                        android:textColor="#000000"
+                        android:textSize="16sp"
+                        android:visibility="visible"
+                        app:layout_constraintEnd_toStartOf="@+id/details_gender"
+                        app:layout_constraintTop_toBottomOf="@+id/phone_profile" />
+
+                    <TextView
+                        android:id="@+id/details_gender"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginEnd="4dp"
+                        android:gravity="right"
+                        android:text="@string/details_profile_gender"
+                        android:textColor="#000000"
+                        android:textSize="16sp"
+                        android:visibility="visible"
+                        app:layout_constraintEnd_toStartOf="@+id/age_profile"
+                        app:layout_constraintTop_toBottomOf="@+id/phone_profile" />
+
+                    <TextView
+                        android:id="@+id/age_profile"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginEnd="8dp"
+                        android:gravity="right"
+                        android:text="@string/ageProfile"
+                        android:textColor="#000000"
+                        android:textSize="16sp"
+                        android:visibility="visible"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/phone_profile" />
+
+                    <TextView
+                        android:id="@+id/details_about"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:gravity="left"
+                        android:text="@string/details_profile_about"
+                        android:textColor="#000000"
+                        android:textSize="16sp"
+                        android:visibility="visible"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/materialDivider" />
+
+                    <TextView
+                        android:id="@+id/login_profile"
+                        android:layout_width="218dp"
+                        android:layout_height="26dp"
+                        android:layout_marginTop="6dp"
+                        android:layout_marginEnd="8dp"
+                        android:gravity="right"
+                        android:text="@string/emailProfile"
+                        android:textColor="#000000"
+                        android:textSize="16sp"
+                        android:visibility="visible"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/name_profile" />
+
+                    <TextView
+                        android:id="@+id/phone_profile"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginEnd="8dp"
+                        android:gravity="right"
+                        android:text="@string/phoneProfile"
+                        android:textColor="#000000"
+                        android:textSize="16sp"
+                        android:visibility="visible"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/login_profile" />
+
+                    <TextView
+                        android:id="@+id/name_profile"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:gravity="right"
+                        android:text="@string/nameProfile"
+                        android:textAlignment="gravity"
+                        android:textColor="#000000"
+                        android:textSize="20sp"
+                        android:visibility="visible"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <com.google.android.material.divider.MaterialDivider
+                        android:id="@+id/materialDivider"
+                        style="@style/Widget.App.MaterialDivider"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:visibility="visible"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/details_city" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/received_likes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="70dp"
+                android:layout_marginTop="100dp"
+                android:layout_marginEnd="70dp"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="10dp"
+                app:contentPadding="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cardviewprofile">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/layoutlike"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/mylike"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="20dp"
+                        android:text="@string/my_like"
+                        android:textColor="#000000"
+                        android:textSize="20sp"
+                        android:visibility="visible"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/sentlike"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:text="@string/sent_likes"
+                        android:textColor="#000000"
+                        android:textSize="20sp"
+                        android:visibility="gone"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.352"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="@+id/mylike" />
+
+                    <ImageView
+                        android:id="@+id/imageheartone"
+                        android:layout_width="69dp"
+                        android:layout_height="54dp"
+                        android:layout_marginStart="50dp"
+                        android:layout_marginEnd="5dp"
+                        android:src="@drawable/heart2"
+                        android:visibility="visible"
+                        app:layout_constraintEnd_toStartOf="@+id/countmylike"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/mylike" />
+
+                    <ImageView
+                        android:id="@+id/imagehearttwo"
+                        android:layout_width="69dp"
+                        android:layout_height="54dp"
+                        android:layout_marginStart="50dp"
+                        android:src="@drawable/heart2"
+                        android:visibility="gone"
+                        app:layout_constraintEnd_toStartOf="@+id/countsentlike"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/sentlike" />
+
+                    <TextView
+                        android:id="@+id/countmylike"
+                        android:layout_width="wrap_content"
+                        android:layout_height="55dp"
+                        android:layout_marginStart="4dp"
+                        android:textColor="#000000"
+                        android:textSize="32sp"
+                        android:visibility="visible"
+                        app:layout_constraintStart_toEndOf="@+id/imageheartone"
+                        app:layout_constraintTop_toBottomOf="@+id/mylike" />
+
+                    <TextView
+                        android:id="@+id/countsentlike"
+                        android:layout_width="wrap_content"
+                        android:layout_height="55dp"
+                        android:layout_marginStart="4dp"
+                        android:textColor="#000000"
+                        android:textSize="32sp"
+                        android:visibility="gone"
+                        app:layout_constraintStart_toEndOf="@+id/imagehearttwo"
+                        app:layout_constraintTop_toBottomOf="@+id/sentlike" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="16dp"
+                android:gravity="center"
+                android:text=""
+                android:textColor="#6A6A6A"
+                android:textSize="16sp"
+                android:paddingBottom="50dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/received_likes" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

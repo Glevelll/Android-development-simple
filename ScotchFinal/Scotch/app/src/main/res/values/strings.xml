@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">Scotch</string>
+    <string name="login">Логин</string>
+    <string name="password">Пароль</string>
+    <string name="name">Имя</string>
+    <string name="age">Возраст</string>
+    <string name="gender">Пол</string>
+    <string name="city">Город</string>
+    <string name="phone_number">Телефон</string>
+    <string name="phone_text">+7</string>
+    <string name="about">О себе</string>
+    <string name="OK">ОК</string>
+    <string name="Cancel">Закрыть</string>
+    <string name="Menu_Button">Войти в меню</string>
+    <string name="SignIn_Text">Вход</string>
+    <string name="SignIn_login" />
+    <string name="SignIn_password" />
+    <string name="SignIn_Button">Войти</string>
+    <string name="SignIn_Forgotpassword">Регистрация</string>
+    <string name="link"><a href="https://support.google.com/accounts/answer/7682439?hl=ru">Регистрация</a></string>
+    <string name="Menu_ButtonOne" />
+
+    <string name="title_profile">Профиль</string>
+    <string name="title_dashboard">Поиск</string>
+    <string name="title_notifications">Избранное</string>
+    <string name="title_settings">Настройки</string>
+
+    <string name="titleProfile">Scotch</string>
+
+    <string name="details_profile_city">Город</string>
+    <string name="details_profile_gender">Пол</string>
+    <string name="details_profile_about">Описание</string>
+    <string name="details_profile_change_info">Настройки</string>
+
+    <string name="my_like">Лайков получено</string>
+    <string name="my_like_count">10</string>
+    <string name="sent_likes">Лайков отправлено</string>
+    <string name="sent_like_count">100</string>
+
+    <string name="photoProfile1">profile photo</string>
+    <string name="emailProfile">Логин</string>
+    <string name="nameProfile">Имя</string>
+    <string name="phoneProfile">Телефон</string>
+    <string name="ageProfile">Возраст</string>
+
+
+    <string name="settings_title1">Личные данные</string>
+    <string name="settings_aboutUs">Scotch для Android v1.0</string>
+    <string name="settings_aboutUs2">Проект компании VolSib</string>
+    <string name="email_company">Связаться с разработчиками вы можете написав на почту scotchSupport@gmail.com</string>
+    <string name="settings_phone">Номер телефона</string>
+    <string name="night_theme">Тема аккаунта</string>
+    <string name="name_change">Имя</string>
+    <string name="city_change">Город</string>
+    <string name="gender_change">Пол</string>
+    <string name="gender_choose">Мужчина</string>
+    <string name="gender_choose2">Женщина</string>
+    <string name="age_change">Возраст</string>
+    <string name="about_change">Обо мне</string>
+
+    <string name="save_btn">Сохранить</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tab1">Likes</string>
+    <string name="choose">Choose</string>
+    <string name="edit">Edit</string>
+    <string name="Filter">Фильтр</string>
+    <string name="from">От</string>
+    <string name="minage">18</string>
+    <string name="toMax">До</string>
+    <string name="maxage">99</string>
+    <string name="apply">Применить</string>
+    <string name="Clear">Очистить</string>
+
+    <string name="select_photo">Фото профиля</string>
+    <string name="login_change">Логин</string>
+    <string name="loginProfile">ЛОГИН</string>
+    <string name="photo_text">Фото</string>
+    <string name="Exit">Выйти</string>
+    <string name="genderFemale">Жен</string>
+    <string name="genderFull">Пол:</string>
+</resources>
+
