@@ -24,8 +24,7 @@ In the search snippet, you can rate other users, view their information, and sea
 In the favorites fragment, there is an opportunity to see those whom I liked and those who liked me. <br/>
 
 <H3>Sign In</H3>
-![photo_2023-07-22_14-31-42](https://github.com/Glevelll/Android-development/assets/113721736/27f27637-d9d5-42ae-bed3-48a1123138a2)
-<br/>
+![photo_2023-07-22_14-31-42](https://github.com/Glevelll/Android-development/assets/113721736/f8568771-60f5-43bf-8c64-694c5e97be80) <br/>
 The login window contains a transition to the registration window and fields for entering a login and password. The entered login and password are sent to the server using a POST request. If successful, the server returns a cookie for the user, which will be necessary for further interaction of the authorized user with the application. If the data entry is incorrect, the user is informed about it.
 
 <H3>Sign Up</H3>
