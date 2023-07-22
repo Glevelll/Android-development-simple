@@ -16,4 +16,7 @@ Cookie  <br/>
 Exception Handling  <br/>
 Multithreading is implemented in the Registration window as a demonstration of skills, but not implemented in other windows due to API features  <br/>
 
-
+The structure of the application is as follows: There are two main windows: for login and for registration. After a correct login, 3 fragments appear: profile, search and favorites.
+From the profile fragment, you can go to the settings or go to the login window.
+In the search snippet, you can rate other users, view their information, and search by filters.
+In the favorites fragment, there is an opportunity to see those whom I liked and those who liked me.
