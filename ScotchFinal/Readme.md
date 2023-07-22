@@ -6,14 +6,14 @@ The application has an ergonomic interface and connection with the server for st
 
 <H3> Key technologies used: </H3>
 Android SDK  <br/>
-Gradle  
-Using OOP  
-Using Third Party Design Libraries  
-HttpUrlConnection  
-XML  
-Git  
-Cookie  
-Exception Handling  
-Multithreading is implemented in the Registration window as a demonstration of skills, but not implemented in other windows due to API features  
+Gradle  <br/>
+Using OOP  <br/>
+Using Third Party Design Libraries  <br/>
+HttpUrlConnection  <br/>
+XML  <br/>
+Git  <br/>
+Cookie  <br/>
+Exception Handling  <br/>
+Multithreading is implemented in the Registration window as a demonstration of skills, but not implemented in other windows due to API features  <br/>
 
 
