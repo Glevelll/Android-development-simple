@@ -40,7 +40,7 @@ Picture: https://github.com/Glevelll/Android-development/assets/113721736/223e90
 After a successful login, the user is presented with a window with three fragments. First fragment: Profile. It contains all the information about the current user, which can be changed by clicking on the Settings button, after which the settings window will open. From here, you can exit to the login window using the Exit button. Also, here are the number of received and sent likes. The data here is obtained from the server using the get method using two requests: one for getting information, the other for getting a photo. This approach is implemented throughout the application.
 
 <H3>Settings</H3> <br/>
-Pictures: https://github.com/Glevelll/Android-development/assets/113721736/aca84b60-bd3b-44fc-95a7-9a8a8b5cfa93 <br/>
+Pictures: https://github.com/Glevelll/Android-development/assets/113721736/9f4cb582-d8ff-485c-a9a7-3e74924be041 <br/>
 https://github.com/Glevelll/Android-development/assets/113721736/9fd8489e-76f6-4d0c-80b6-3676dfaf21f3 <br/>
 
 In the settings window, you can change information about the current user: name, gender, city, age, about yourself and photo (jpeg). If the user has changed the data and wants to go back, the user is informed that the data has already been changed and needs to be saved. If the user changed the data and clicked OK, then a Patch Path request is sent to the server, which changes the data on the server. After that, the user will have new information in the profile window.
