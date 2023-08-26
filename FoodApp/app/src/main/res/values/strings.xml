@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CookBook</string>
+    <string name="title_home">Recipes</string>
+    <string name="title_dashboard">Favourite</string>
+    <string name="title_notifications">My cookbook</string>
+    <string name="title">Десерты</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="name">Название</string>
+</resources>
