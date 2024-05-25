@@ -14,5 +14,3 @@ This folder contains a simple application for setting alarm times. It has the sa
 
 Dating app. It has an interface that is taken from various libraries. The application is written in Java. An API is written for the application, which allows it to interact with the server. The api was written by the user [kek-flip](https://github.com/kek-flip) in Go.
 The direct development of the application was carried out with the user [DragIv](https://github.com/DragIv).
-
-# [FoodApp](https://github.com/Glevelll/Android-development/tree/main/FoodApp)
