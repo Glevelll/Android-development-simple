@@ -1,16 +1,16 @@
 # Android-development
 
-This repository will contain works related to Android development. Projects will be written here in both Java and Kotlin.
+В этом репозитории будут находиться работы, связанные с разработкой Android. Проекты здесь будут написаны как на Java, так и на Kotlin.
 
 # [Weather](https://github.com/Glevelll/Android-development/tree/main/Weather)
 
-The weather folder contains a simple application with a simple interface for displaying the weather in the selected city. The application is implemented in Java and Kotlin
+В папке weather находится простое приложение с простым интерфейсом для отображения погоды в выбранном городе. Приложение реализовано на Java и Kotlin
 
 # [Alarm](https://github.com/Glevelll/Android-development/tree/main/Alarm!)
 
-This folder contains a simple application for setting alarm times. It has the same simple interface.
+В этой папке находится простое приложение для установки времени будильника. У него такой же простой интерфейс.
 
 # [ScotchApp](https://github.com/Glevelll/Android-development/tree/main/ScotchFinal)
 
-Dating app. It has an interface that is taken from various libraries. The application is written in Java. An API is written for the application, which allows it to interact with the server. The api was written by the user [kek-flip](https://github.com/kek-flip) in Go.
-The direct development of the application was carried out with the user [DragIv](https://github.com/DragIv).
+Приложение для знакомств. Имеет интерфейс, взятый из различных библиотек. Приложение написано на Java. Для приложения написан API, который позволяет ему взаимодействовать с сервером. API был написан пользователем [kek-flip](https://github.com/kek-flip) на Go.
+Непосредственная разработка приложения велась с пользователем [DragIv](https://github.com/DragIv).
